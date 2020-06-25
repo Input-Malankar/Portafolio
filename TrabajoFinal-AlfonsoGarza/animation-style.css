@@ -32,12 +32,33 @@ body{
 }
 
 video{
-    width: 100%;
+    width: 50%;
 }
 
 
 .textoFinal{
     margin: auto;
+}
+
+.video-text{
+    display: flex;
+    flex-flow: row;
+}
+
+.videos p{
+    display: block;
+    width: 80%;
+    text-align: justify;
+    margin-block-start: 1em;
+    margin-block-end: 0.89em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 40px;
+    text-anchor: start;
+    color: var(--txt);
+
 }
 
 header{
@@ -124,7 +145,14 @@ p{
     margin-right: auto;
     color: black;
     font-size: 26px;
+    color: var(--txt);
 }
 
+hr{
+    border: solid;
+    border-color: var(--bg-01);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
 
 

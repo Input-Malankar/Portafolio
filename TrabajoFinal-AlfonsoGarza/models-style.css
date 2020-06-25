@@ -38,11 +38,19 @@ body{
 .fotos{
     display: flex;
     flex-flow: row;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    margin-bottom: none;
 }
 
 .foto{
+    display: block;
     padding: 0%;
-    margin-bottom: 0%;
+    margin-bottom: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .subtitle{
@@ -56,7 +64,8 @@ p{
     margin-left: auto;
     margin-right: auto;
     color: black;
-    font-size: 26px;
+    font-size: 32px;
+    color: var(--txt);
 }
 
 header{
@@ -138,8 +147,14 @@ img{
     margin: 0%;
 }
 
-
-
+hr{
+    display: block;
+    margin-top: 0%;
+    width: 100%;
+    border: solid;
+    border-color: var(--bg-01);
+    
+}
 
 
 
